@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 import { CarouselModule } from 'angular4-carousel';
 
 import { AppComponent } from './app.component';
+import { FloorplansComponent } from './components/floorplans/floorplans.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FloorplansComponent
   ],
   imports: [
     BrowserModule,
