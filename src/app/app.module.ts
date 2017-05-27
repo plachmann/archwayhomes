@@ -13,6 +13,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { AidenComponent } from './components/floorplans/aiden/aiden.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     ContactComponent,
     NavComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    AidenComponent
   ],
   imports: [
     AlertModule.forRoot(),

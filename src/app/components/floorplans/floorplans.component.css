@@ -1,6 +1,7 @@
 /* Mobile */
 
-@media (max-width: 767px) {
+
+/*@media (max-width: 767px) {
     .slider-size {
         height: auto;
     }
@@ -10,7 +11,7 @@
 }
 
 
-/* tablets */
+
 
 @media (max-width: 991px) and (min-width: 768px) {
     .slider-size {
@@ -22,7 +23,7 @@
 }
 
 
-/* laptops */
+
 
 @media (max-width: 1023px) and (min-width: 992px) {
     .slider-size {
@@ -31,6 +32,19 @@
     .slider-size>img {
         width: 80%;
     }
+}*/
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
 }
 
 
