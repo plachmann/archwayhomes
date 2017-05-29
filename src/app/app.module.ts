@@ -15,6 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AidenComponent } from './components/floorplans/aiden/aiden.component';
 import { CandaceComponent } from './components/floorplans/candace/candace.component';
+import { ChelseaComponent } from './components/floorplans/chelsea/chelsea.component';
+import { ElizabethComponent } from './components/floorplans/elizabeth/elizabeth.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { CandaceComponent } from './components/floorplans/candace/candace.compon
     FooterComponent,
     CarouselComponent,
     AidenComponent,
-    CandaceComponent
+    CandaceComponent,
+    ChelseaComponent,
+    ElizabethComponent
   ],
   imports: [
     AlertModule.forRoot(),
