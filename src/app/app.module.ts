@@ -14,7 +14,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AidenComponent } from './components/floorplans/aiden/aiden.component';
-import { AnotherComponent } from './components/another/another.component';
+import { CandaceComponent } from './components/floorplans/candace/candace.component';
 
 
 @NgModule({
@@ -26,7 +26,7 @@ import { AnotherComponent } from './components/another/another.component';
     FooterComponent,
     CarouselComponent,
     AidenComponent,
-    AnotherComponent
+    CandaceComponent
   ],
   imports: [
     AlertModule.forRoot(),
